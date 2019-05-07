@@ -1,4 +1,4 @@
-# # Project 3 @cmda-minor-web · 2018-2019 ⚙️
+# Project 3 @cmda-minor-web · 2018-2019 ⚙️
 
 This is my repo for project 3 of the web development minor..
 
