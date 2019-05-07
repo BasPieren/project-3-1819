@@ -5,6 +5,8 @@
 :root {
   --white: #ffffff;
   --black: #000000;
+  --dark-grey: #D2D2D2;
+  --light-grey: #E6E6E6;
   --black-text: #424242;
   --maastricht-blue: #081B33;
   --yankees-blue: #152642;
@@ -25,14 +27,14 @@ body {
   background-color: var(--charcoal);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Roboto', sans-serif;
 }
 
 header {
   width: 100%;
-  height: 10vh;
-  padding: 1.5em;
+  height: 60px;
+  padding: 1em;
   background-color: var(--maastricht-blue);
   box-sizing: border-box;
 }
@@ -61,16 +63,58 @@ header h3 {
   color: var(--white);
 }
 
+main article {
+  margin: 0 auto;
+  width: 90vw;
+  height: 35px;
+  text-align: center;
+  border: 1px solid var(--black);
+}
+
+main article:first-of-type {
+  margin-top: 1em;
+}
+
+main article div {
+  width: 100%;
+  height: 100%;
+}
+
+main article div:first-of-type {
+  background-color: var(--dark-grey);
+}
+
+main article div:first-of-type h4 {
+  margin: 0 auto;
+}
+
+main article div:last-of-type {
+  background-color: var(--white);
+}
+
+main article div:last-of-type a{
+  margin: 0 auto;
+}
+
+main article div:last-of-type i{
+  margin-right: 1em;
+}
+
 /* ---------- ID ---------- */
 #p3-filter {
-  margin: 1.5em auto 0 auto;
+  margin: 1em auto 0 auto;
   padding: 1em;
   width: 90vw;
+  height: 60px;
   background-color: var(--maastricht-blue);
   border: 1px solid var(--slate-gray);
   border-radius: 5px;
   box-sizing: border-box;
   transition: 0.2s;
+}
+
+#p3-filter div {
+  margin-bottom: auto;
 }
 
 #p3-filter h3 {
@@ -81,6 +125,7 @@ header h3 {
 
 #p3-filter i {
   color: var(--white);
+  transition: 0.3s;
 }
 
 #p3-filter i:last-of-type{
@@ -88,9 +133,52 @@ header h3 {
   cursor: pointer;
 }
 
+#p3-page-nav {
+  margin: 0.75em auto 0 auto;
+  width: 90vw;
+}
+
 /* ---------- CLASS ---------- */
 .p3-flex-default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.p3-page-nav-button {
+  width: 45px;
+  height: 45px;
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+  text-decoration: none;
+  line-height: 45px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.p3-page-nav-button-orange {
+  color: var(--orange);
+}
+
+.p3-page-nav-button i {
+  margin: 0 auto;
+}
+
+.p3-next-page {
+  color: var(--orange);
+  background-color: var(--charcoal);
+  border: 1px solid var(--orange);
+}
+
+.p3-next-page:first-of-type {
+  opacity: 0.5;
+}
+
+.p3-filter-expanded {
+  height: 50vh!important;
+}
+
+.p3-arrow-turn {
+  transform: rotate(180deg);
 }
