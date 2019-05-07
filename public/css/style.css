@@ -1,8 +1,16 @@
 /* ---------- FONTS ---------- */
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
 /* ---------- COLORS ---------- */
-
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --black-text: #2d2d2d;
+  --light-grey: #F8F9FA;
+  --grey: #DEE2E6;
+  --dark-grey: #CED4DA;
+  --blue: #007BFF;
+}
 
 /* ---------- GENERAL ---------- */
 * {
@@ -10,20 +18,41 @@
   padding: 0;
 }
 
-/* ---------- JISKEFET ---------- */
-.jf-navbar {
-    background-color: #1f201f;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    width: 100%;
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: .5rem 1rem;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  padding: 1.5em;
+  background-color: var(--black);
+  box-sizing: border-box;
+}
+
+header i {
+  font-size: 1.3em;
+  color: var(--white);
+}
+
+header img:first-of-type {
+  width: 25px;
+  height: auto;
+  margin-left: auto;
+}
+
+header img:last-of-type {
+  display: block;
+  width: 30px;
+  height: auto;
+  border-radius: 50%;
+}
+
+header h3 {
+  margin: 0 auto 0 0.75em;
+  font-weight: 400;
+  color: var(--white);
 }
