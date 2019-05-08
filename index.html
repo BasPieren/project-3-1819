@@ -17,144 +17,187 @@
     <img src="public/images/user_profile_picture.jpg" alt="User profile picture">
   </header>
 
-  <section id="p3-filter">
-    <div class="p3-flex-default">
-      <i class="fas fa-filter"></i>
-      <h3>Filters</h3>
-      <i class="fas fa-chevron-down"></i>
-    </div>
-  </section>
-
   <main>
-    <article class="p3-flex-default">
+
+    <section id="p3-filter">
       <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">1</a>
+        <i class="fas fa-filter"></i>
+        <h3>Filters</h3>
         <i class="fas fa-chevron-down"></i>
       </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
+      <div>
+        <form action="">
+          <label>Run Number
+            <input id="p3-run-number" type="text" name="" value="" placeholder="e.g 12">
+          </label>
+
+          <label>Activity ID
+            <input id="p3-activity-id" type="text" name="" value="" placeholder="e.g XZTDsgV4SiVPHFfZ">
+          </label>
+
+          <label>Run Type
+            <select id="p3-run-type" class="" name="">
+              <option value="phisics">PHYSICS</option>
+              <option value="technical">TECHNICAL</option>
+              <option value="cosmics">COSMICS</option>
+            </select>
+          </label>
+
+          <label>Run Quality
+            <input id="p3-run-quality" type="text" name="" value="">
+          </label>
+
+          <label>Time O2 Start
+            <input id="p3-time-o2-start" type="date" name="" value="">
+          </label>
+
+          <label>Time O2 end
+            <input id="p3-time-o2-end" type="date" name="" value="">
+          </label>
+
+          <label>Time TRG Start
+            <input id="p3-time-trg-start" type="date" name="" value="">
+          </label>
+
+          <label>Time TRG Start
+            <input id="p3-time-trg-end" type="date" name="" value="">
+          </label>
+        </form>
       </div>
-      <div class="p3-flex-default">
-        <a href="#">2</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">3</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">4</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">5</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">6</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">7</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">8</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">9</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">10</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">11</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
-    <article class="p3-flex-default">
-      <div class="p3-flex-default">
-        <h4>Run Number</h4>
-      </div>
-      <div class="p3-flex-default">
-        <a href="#">12</a>
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </article>
+    </section>
+
+    <section>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">1</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">2</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">3</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">4</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">5</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">6</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">7</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">8</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">9</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">10</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">11</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+      <article class="p3-flex-default">
+        <div class="p3-flex-default">
+          <h4>Run Number</h4>
+        </div>
+        <div class="p3-flex-default">
+          <a href="#">12</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </article>
+    </section>
+
+    <section id="p3-page-nav" class="p3-flex-default">
+      <a href="#" class="p3-page-nav-button p3-next-page">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+
+      <a href="#" class="p3-page-nav-button p3-current-page">1</a>
+
+      <a href="#" class="p3-page-nav-button">2</a>
+
+      <a href="#" class="p3-page-nav-button p3-page-nav-button-orange">
+        <i class="fas fa-ellipsis-h"></i>
+      </a>
+
+      <a href="#" class="p3-page-nav-button">67</a>
+
+      <a href="#" class="p3-page-nav-button p3-next-page">
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </section>
+
   </main>
-
-  <section id="p3-page-nav" class="p3-flex-default">
-    <a href="#" class="p3-page-nav-button p3-next-page">
-      <i class="fas fa-chevron-left"></i>
-    </a>
-
-    <a href="#" class="p3-page-nav-button p3-current-page">1</a>
-
-    <a href="#" class="p3-page-nav-button">2</a>
-
-    <a href="#" class="p3-page-nav-button p3-page-nav-button-orange">
-      <i class="fas fa-ellipsis-h"></i>
-    </a>
-
-    <a href="#" class="p3-page-nav-button">67</a>
-
-    <a href="#" class="p3-page-nav-button p3-next-page">
-      <i class="fas fa-chevron-right"></i>
-    </a>
-  </section>
 
 <script src="public/js/script.js"></script>
 </body>
