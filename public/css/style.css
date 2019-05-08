@@ -110,7 +110,7 @@ main article div:last-of-type i{
   margin: 1em auto auto auto;
   padding: 1em;
   width: 90vw;
-  height: 60px;
+  height: auto;
   background-color: var(--maastricht-blue);
   border: 1px solid var(--slate-gray);
   border-radius: 5px;
@@ -120,7 +120,7 @@ main article div:last-of-type i{
 
 #p3-filter div:last-of-type {
   display: none;
-  margin: auto 0;
+  margin: 1em 0 auto 0;
 }
 
 #p3-filter div:last-of-type form{
@@ -205,7 +205,7 @@ main article div:last-of-type i{
 
 .p3-filter-expanded {
   margin-bottom: 1em!important;
-  height: 55vh!important;
+  height: fit-content!important;
 }
 
 .p3-arrow-turn {
