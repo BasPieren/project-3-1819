@@ -143,6 +143,10 @@ main article div:last-of-type i{
   box-sizing: border-box;
 }
 
+#p3-filter div:last-of-type select{
+  margin: 0.2em 0 0 0;
+}
+
 #p3-filter h3 {
   margin: 0 auto 0 0.75em;
   color: var(--white);
