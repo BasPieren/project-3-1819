@@ -1,9 +1,9 @@
 # Project 3 @cmda-minor-web · 2018-2019 ⚙️
 
-This is my repo for project 3 of the web development minor..
+This is my repo for project 3 of the web development minor.
 
-![Project Image](https://i.imgur.com/ZALRBjH.png)
-> Image description
+![Jiskefet Redesign](https://i.imgur.com/8S2Ix6w.png)
+> Jiskefet Redesign
 
 ## Table of Contents 🗃
 * [To Do](#to-do-)
