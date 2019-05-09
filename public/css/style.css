@@ -121,6 +121,34 @@ header img:last-of-type {
   display: none;
 }
 
+.p3-filter-runs-form form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin: 1em 0;
+}
+
+.p3-filter-runs-form form input{
+  margin: 0.5em 0 0 0;
+  padding-left: 0.5em;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.p3-filter-runs-form form select{
+  margin: 0.5em 0 0 0;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.p3-filter-runs-form-expanded {
+  display: block!important;
+}
+
 /* ---------- SORT ---------- */
 #p3-sort-runs {
   margin: 0 0 2em 0;
