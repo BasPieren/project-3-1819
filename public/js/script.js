@@ -1,5 +1,6 @@
 'use strict';
 
-import { turnFilterArrow } from './modules/turn-filter-arrow.js'
+import * as collapse from './modules/collapse.js'
 
-turnFilterArrow()
+collapse.turnFilterArrow()
+collapse.turnTableArrow()
