@@ -110,7 +110,7 @@ header img:last-of-type {
 #p3-filter-runs div:first-of-type i:last-of-type{
   font-size: 1.2em;
   color: var(--orange);
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .p3-filter-arrow-turn {
@@ -203,10 +203,11 @@ header img:last-of-type {
   background-color: var(--white);
 }
 
-#p3-runs-table article div:last-of-type i{
+#p3-runs-table article div:last-of-type i {
+  transition: 0.3s;
 }
 
-#p3-runs-table article div:last-of-type a{
+#p3-runs-table article div:last-of-type a {
   margin: 0 auto;
 }
 
