@@ -73,17 +73,22 @@ Furthermore I also wanted to allow users to be able to navigate the data in a wa
 
 The final designs look are as follows:
 
-![Homepage](https://i.imgur.com/L7z9TqR.png)
-> Homepage
+Homepage (Old)                                    |  Homepage (New)
+:------------------------------------------------:|:-------------------------:
+![Old Homepage](https://i.imgur.com/BEFktlK.jpg)  |  ![New Homepage](https://i.imgur.com/bTE4JuL.jpg)
 
-![Expanded filter](https://i.imgur.com/QCazyYE.png)
-> Expanded filter
+Expanded filter (Old)                                    |  Expanded filter (New)
+:-------------------------------------------------------:|:-------------------------:
+![Old Expanded filter](https://i.imgur.com/3xKdJuB.jpg)  |  ![New Expanded filter](https://i.imgur.com/1tYeIq9.jpg)
 
-![Expanded table item](https://i.imgur.com/9vaDYCx.png)
-> Expanded table item
+Expanded table item (Old)                         |  Expanded table item (New)
+:------------------------------------------------:|:-------------------------:
+![Old Homepage](https://i.imgur.com/BEFktlK.jpg)  |  ![Expanded table item](https://i.imgur.com/Tdxq7VA.jpg)
 
-![Filter tags](https://i.imgur.com/FLzvXlP.png)
-> Filter tags
+Filter tags (Old)                                    |  Filter tags (New)
+:---------------------------------------------------:|:-------------------------:
+![Old Filter tags](https://i.imgur.com/Mu9gFLy.jpg)  |  ![New Filter tags](https://i.imgur.com/2dcJQly.jpg)
+
 
 ## Sources 📚
 This is a list of all the sources I used during this project:
