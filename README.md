@@ -2,7 +2,7 @@
 
 This is my repo for project 3 of the web development minor.
 
-![Jiskefet Redesign](https://i.imgur.com/1L98EGC.png)
+![Jiskefet Redesign](https://i.imgur.com/WFCIds2.png)
 > Jiskefet Redesign
 
 ## Table of Contents 🗃
