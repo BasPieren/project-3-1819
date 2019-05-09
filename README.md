@@ -73,16 +73,16 @@ Furthermore I also wanted to allow users to be able to navigate the data in a wa
 
 The final designs look are as follows:
 
-![Homepage](https://i.imgur.com/My4sqAV.png)
+![Homepage](https://i.imgur.com/L7z9TqR.png)
 > Homepage
 
-![Expanded filter](https://i.imgur.com/rGe3rie.png)
+![Expanded filter](https://i.imgur.com/QCazyYE.png)
 > Expanded filter
 
-![Expanded table item](https://i.imgur.com/EiIGX2B.png)
+![Expanded table item](https://i.imgur.com/9vaDYCx.png)
 > Expanded table item
 
-![Filter tags](https://i.imgur.com/ADHqHWg.png)
+![Filter tags](https://i.imgur.com/FLzvXlP.png)
 > Filter tags
 
 ## Sources 📚
