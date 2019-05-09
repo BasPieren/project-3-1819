@@ -92,7 +92,9 @@ This is a list of all the sources I used during this project:
 
 ### Honourable Mentions
 
-  * None!
+  * [Calvin Huynh](https://github.com/CalvinHuynh)
+  * [Ramon Gill](https://github.com/RamonG92)
+  * [Amin Chihab](https://github.com/aminChihab)
 
 ## Licence 🔓
 MIT © [Bas Pieren](https://github.com/BasPieren)
