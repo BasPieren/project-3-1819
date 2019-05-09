@@ -222,6 +222,10 @@ header img:last-of-type {
   border-bottom: 1px solid #DEE2E6;
 }
 
+.p3-run-information article:last-of-type {
+  border-bottom: 1px solid #424242;
+}
+
 .p3-run-information article div {
   padding: 1em;
   width: 100%;
