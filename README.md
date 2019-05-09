@@ -56,11 +56,34 @@ I started by drawing a lo-fi sketch.
 
 My plan was to use collapsable parts to hide information from the users until they needed it. Al the runs have a unique run number so I used that as the only information that the user can see directly. I also wanted to combine the time O&#178;/TRG start and end field into one single field to also save space.  
 
-I also wanted to add some extra interaction indicators so that user would know what kind of actions they could preform on the page. 
+I also wanted to add some extra interaction indicators so that user would know what kind of actions they could preform on the page.
 
 ## UI Design 🎨
 Here I explain the UI design process for this project.
 
+So when I started designing the new UI I had a couple of points I wanted to pay close attention to:
+
+  * Hide information the user doesn't need (yet).
+  * Make smarter use of the mobile viewport.
+  * Use more visual pleasing colors.
+
+For the colors I tried finding a balans between visual pleasing and practicality. I went with a darker set of colors for the background and lighter colors for the more import elements and information. I also gave interaction items a completely different color, orange, so that they would stand out more and user would know it is an element they could interact with.
+
+Furthermore I also wanted to allow users to be able to navigate the data in a way that they want. Thats why there are options to sort the data using ascending/descending and the page size.
+
+The final designs look are as follows:
+
+![Homepage](https://i.imgur.com/My4sqAV.png)
+> Homepage
+
+![Expanded filter](https://i.imgur.com/rGe3rie.png)
+> Expanded filter
+
+![Expanded table item](https://i.imgur.com/EiIGX2B.png)
+> Expanded table item
+
+![Filter tags](https://i.imgur.com/ADHqHWg.png)
+> Filter tags
 
 ## Sources 📚
 This is a list of all the sources I used during this project:
