@@ -230,6 +230,7 @@ header img:last-of-type {
 .p3-run-information article div {
   padding: 1em;
   width: 100%;
+  font-weight: 500;
   border: none!important;
 }
 
@@ -243,8 +244,19 @@ header img:last-of-type {
   background-color: var(--white);
 }
 
+.p3-run-information article div p{
+  font-size: 0.8em;
+}
+
 .p3-run-information-expanded {
   display: block;
+}
+
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.2em;
+  align-items: center;
 }
 
 /* ---------- PAGE NAV ---------- */
