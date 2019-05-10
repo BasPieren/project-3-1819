@@ -22,7 +22,7 @@ This is a list of things I want to do in this project:
 - [ ] .
 
 ## Description 📝
-For this project we where asked to help out some students form software engineering with their project in collaboration with [CERN](https://home.cern/), the European Organization for Nuclear Research. They are making a dashboard for [ALICE](https://home.cern/science/experiments/alice) (A Large Ion Collider Experiment) which displays data like their logs and runs. They asked us to help out with some of their user stories. I choose the following user story (in Dutch):
+For this project we where asked to help out some students form software engineering with their project that they where working on in collaboration with [CERN](https://home.cern/), the European Organization for Nuclear Research. They are making a dashboard for [ALICE](https://home.cern/science/experiments/alice) (A Large Ion Collider Experiment) which displays data like their logs and runs. They asked us to help out with some of their user stories. I choose the following user story (in Dutch):
 
 > (O2B-100) ALS Gebruiker WIL IK op al mijn devices een intuïtieve webapplicatie kunnen gebruiken ZODAT Ik door alle opgeslagen metadata kan zoeken.
 
@@ -47,14 +47,14 @@ Here I explain the concept for this project.
 ![Current Jiskefet runs page](https://i.imgur.com/DPIAViT.png)
 > Current Jiskefet runs page
 
-The main problem with the current runs page is this: there is just to much information. This is because there is a very large table which has a whole lot of information. On a desktop it is already hard to read. On a mobile it is nearly impossible because the table overflows from the viewport. So this was the main problem I wanted to tackle.
+The main problem with the current runs page is as follows: there is just to much information. This is because there is a very large table which holds a lot of information. On a desktop it is already hard to read. On a mobile it is nearly impossible because the table overflows from the viewport. So this was the main problem I wanted to tackle.
 
 I started by drawing a lo-fi sketch.
 
 ![Lo-Fi Skecth](https://i.imgur.com/fR2AhbT.jpg)
 > Lo-Fi Sketch
 
-My plan was to use collapsable parts to hide information from the users until they needed it. Al the runs have a unique run number so I used that as the only information that the user can see directly. I also wanted to combine the time O&#178;/TRG start and end field into one single field to also save space.  
+My plan was to use collapsable parts to hide information from the users until they needed it. All the runs have a unique run number so I used that as the only information that the user can see directly. I also wanted to combine the time O&#178;/TRG start and end field into one single field to also save space.  
 
 I also wanted to add some extra interaction indicators so that user would know what kind of actions they could preform on the page.
 
