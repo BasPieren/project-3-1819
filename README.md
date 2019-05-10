@@ -19,7 +19,9 @@ This is my repo for project 3 of the web development minor.
 ## To Do 📌
 This is a list of things I want to do in this project:
 
-- [ ] .
+- [X] Create a concept to improve the [runs](http://cmd.jiskefet.io/runs?pageSize=16&pageNumber=1) page.
+- [X] Design a new UI the [runs](http://cmd.jiskefet.io/runs?pageSize=16&pageNumber=1) page.
+- [X] Create a basic prototype using HTML, CSS and Javascript. 
 
 ## Description 📝
 For this project we where asked to help out some students form software engineering with their project that they where working on in collaboration with [CERN](https://home.cern/), the European Organization for Nuclear Research. They are making a dashboard for [ALICE](https://home.cern/science/experiments/alice) (A Large Ion Collider Experiment) which displays data like their logs and runs. They asked us to help out with some of their user stories. I choose the following user story (in Dutch):
