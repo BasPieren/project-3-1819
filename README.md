@@ -67,7 +67,7 @@ So when I started designing the new UI I had a couple of points I wanted to pay 
   * Make smarter use of the mobile viewport.
   * Use more visual pleasing colors.
 
-For the colors I tried finding a balans between visual pleasing and practicality. I went with a darker set of colors for the background and lighter colors for the more import elements and information. I also gave interaction items a completely different color, orange, so that they would stand out more and user would know it is an element they could interact with.
+For the colors I tried finding a balance between visual pleasing and practicality. I went with a darker set of colors for the background and lighter colors for the more import elements and information. I also gave interaction items a completely different color, orange, so that they would stand out more and user would know it is an element they could interact with.
 
 Furthermore I also wanted to allow users to be able to navigate the data in a way that they want. Thats why there are options to sort the data using ascending/descending and the page size.
 
